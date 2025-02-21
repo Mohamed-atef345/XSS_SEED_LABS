@@ -43,18 +43,13 @@ The scripts simulate three XSS attack scenarios targeting the Elgg social platfo
 ## Usage
 
 1. **Lab Setup**:
-   - Deploy the vulnerable Elgg platform as per [SEED Labs instructions](https://seedsecuritylabs.org/Labs_20/Files/Web_XSS/Web_XSS.pdf).
+   - Deploy the vulnerable Elgg platform as per [SEED Labs instructions](https://seedsecuritylabs.org/Labs_20.04/Files/Web_XSS_Elgg/Web_XSS_Elgg.pdf).
    - Update variables in the scripts (e.g., `samyGuid`, server URLs) to match your environment.
 
 2. **Testing the Exploits**:
    - Inject the scripts into vulnerable input fields (e.g., profile description).
    - Observe automatic friend requests/profile changes when users view the infected page.
 
-## Disclaimer
-
-⚠️ **This code is for educational purposes only.**  
-- Use only in a controlled lab environment with proper authorization.
-- Do not use for malicious activities.
 
 ## References
 
